@@ -7,11 +7,6 @@
     list-style-type: none;
 }
 
-img,
-video {
-    max-width: 100%;
-}
-
 .nav-bar {
     display: flex;
     align-items: center;
@@ -28,6 +23,11 @@ video {
 .nav-logo {
     padding: 20px 0px;
     margin-right: 20px;
+}
+
+.nav-logo a,
+.nav-logo img {
+    display: block;
 }
 
 .nav-toggle {
@@ -96,6 +96,11 @@ video {
     font-weight: 400;
     font-size: 40px;
     line-height: 48px;
+}
+
+img,
+video {
+    max-width: 100%;
 }
 
 .hero-header p {
